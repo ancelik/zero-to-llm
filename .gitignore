@@ -40,5 +40,10 @@ Thumbs.db
 # from GitHub.
 data/
 
+# Runtime artifacts produced by running the notebook (downloaded
+# embeddings, etc) — regenerable, no value in tracking.
+embeddings.parquet
+*.tar.gz
+
 # Misc
 *.tmp
