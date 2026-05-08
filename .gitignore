@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+env/
+.python-version
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+.jupyter/
+
+# Workshop secrets — NEVER commit your RunPod API key
+attendee/config.py
+host/config.py
+.env
+.env.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# Build / cache
+.cache/
+*.log
+
+# nanochat working dir (if anyone runs it locally)
+.cache/nanochat/
+
+# Workshop data — too big for GitHub (~1 GB of parquets) and not needed
+# in the repo: attendees download from the workshop's storage pod, not
+# from GitHub.
+data/
+
+# Misc
+*.tmp

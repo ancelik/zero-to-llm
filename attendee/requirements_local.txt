@@ -1,0 +1,4 @@
+# Tiny local footprint: just the RunPod SDK (and a couple of friends).
+# Anything heavy (PyTorch, nanochat) lives only on the GPU pod.
+runpod>=1.7.0
+requests>=2.31.0
